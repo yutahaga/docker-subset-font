@@ -1,0 +1,10 @@
+{
+  "name": "docker-subset-font",
+  "version": "0.0.1",
+  "author": "Yuta Haga <yutahaga7@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "setup": "docker-compose up --build -d",
+    "convert": "docker-compose up"
+  }
+}

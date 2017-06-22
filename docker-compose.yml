@@ -1,0 +1,8 @@
+version: "3"
+services:
+  tool:
+    container_name: tool
+    build: ./tool
+    volumes:
+      - ./src:/app/src
+      - ./dist:/app/dist
